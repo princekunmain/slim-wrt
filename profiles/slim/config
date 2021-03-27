@@ -2,6 +2,18 @@ CONFIG_TARGET_x86=y
 CONFIG_TARGET_x86_64=y
 CONFIG_TARGET_x86_64_Generic=y
 
+CONFIG_GRUB_IMAGES=y
+CONFIG_EFI_IMAGES=y
+
+CONFIG_PACKAGE_luci-app-turboacc=y
+CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_flow-offload=n
+CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_shortcut-fe=y
+
+CONFIG_PACKAGE_luci-proto-bonding=y
+CONFIG_PACKAGE_autocore-x86=y
+
+CONFIG_PACKAGE_wpad-basic-wolfssl=y
+
 CONFIG_PACKAGE_luci=y
 CONFIG_PACKAGE_luci-i18n-base-zh-cn=y
 CONFIG_PACKAGE_luci-app-taghost=y
